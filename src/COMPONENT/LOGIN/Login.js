@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import LogCss from './login.module.css';
 import LoginPic from './login.jpg'
 import LoginBg from './loginbg.png'
+import { Link } from 'react-router-dom';
 
 
 export default function Login() {
@@ -43,7 +44,7 @@ export default function Login() {
                 <input type="password" placeholder='password' name='password' required onChange={handlePassword} value={password} /><br />
                 <button type='submit'>Log in</button><br />
                 </form>
-                <a href="#">Create new Account</a>
+                <Link to="/register">Create new Account</Link>
             </div>
 
         </div>
