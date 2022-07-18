@@ -29,7 +29,7 @@ export default function Login() {
     <div className={LogCss.main}>
         <div className={LogCss.container}>
 
-          <img src={LoginBg} alt="Login_bg" />
+          {/* <img src={LoginBg} alt="Login_bg" /> */}
 
             <div className={LogCss.left}>
                 <h1><span>U</span>CONNECT</h1>

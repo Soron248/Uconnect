@@ -1,6 +1,7 @@
 import React from 'react'
 import RegCss from './register.module.css';
-import RegBgImg from './academia-1293362_960_720.png';
+// import RegBgImg from './academia-1293362_960_720.png';
+import BgImag from './login.jpg';
 import {Link} from 'react-router-dom';
 
 const register = () => {  
@@ -11,7 +12,7 @@ const register = () => {
                 <div className={RegCss.left}>
                 <h1><span>U</span>CONNECT</h1>
                 <p>create your identity</p>
-                <img src={RegBgImg} alt="Login_svg" />
+                <img src={BgImag} alt="Login_svg" />
             </div>
 
             <div className={RegCss.right}>
