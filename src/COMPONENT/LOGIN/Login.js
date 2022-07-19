@@ -23,7 +23,7 @@ export default function Login() {
     const newData = {email:email, password:password};
     setAllData([...allData,newData]);
   }
-  
+  console.log(allData)
   
   return (
     <div className={LogCss.main}>
