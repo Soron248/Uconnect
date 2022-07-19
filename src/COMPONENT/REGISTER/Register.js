@@ -11,8 +11,8 @@ const register = () => {
                 <div className={RegCss.left}>
                 <h1><span>U</span>CONNECT</h1>
                 <p>create your identity</p>
-                <img src={RegBgImg} alt="Register_svg" />
-               </div>
+                <img src={RegBgImg} alt="Login_svg" />
+            </div>
 
                 <div className={RegCss.right}>
                     <h1>Sign Up</h1>

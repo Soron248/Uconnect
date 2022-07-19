@@ -1,0 +1,22 @@
+.Profile{
+    background-color: #f3f3f3;
+    padding: 14px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 18rem auto 20rem;
+    gap: 1rem;
+    
+}
+/* .blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: rgb(166, 221, 240);
+    filter: blur(71px);
+} */
+.Profile-center{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

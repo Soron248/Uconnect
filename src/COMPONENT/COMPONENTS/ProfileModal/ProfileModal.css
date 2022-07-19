@@ -1,0 +1,24 @@
+
+.infoForm{
+    text-align: center;
+}
+.infoInput{
+    width: 250px;
+    height: 40px;
+    margin: 1rem;
+    padding: 1rem;
+    outline: none;
+    border: solid 2px #5E6EFF;
+    border-radius: 5px;
+}
+.imgUpload{
+    text-align: center;
+    padding-left: 80px;
+}
+.btn{
+    margin-top: 265px;
+    margin-left: 180px;
+    width: 70px;
+    height: 30px;
+    padding: 0;
+}
