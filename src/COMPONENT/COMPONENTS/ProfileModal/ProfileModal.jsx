@@ -15,16 +15,13 @@ function ProfileModal({modalOpened, setModalOpened}) {
       <form className='infoForm'>
         <h3>Your info</h3>
         <div>
-            <input type="text" className="infoInput" name='FirstName' placeholder='First Name'/>
-        </div>
-        <div>
-        <input type="text" className="infoInput" name='LastName' placeholder='Last Name'/>
+        <input type="text" className="infoInput" name='FullName' placeholder='Full Name'/>
         </div>
         <div>
             <input type="text" className="infoInput" name='LivesIN' placeholder='Lives in'/>
         </div>
         <div>
-        <input type="text" className="infoInput" name='ID' placeholder='ID'/>
+        <input type="text" className="infoInput" name='CampusID' placeholder='Campus ID'/>
         </div>
         <div>
         <input type="text" className="infoInput" name='Department' placeholder='Department'/>
